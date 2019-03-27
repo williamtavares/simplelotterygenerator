@@ -1,0 +1,96 @@
+html {
+    min-width: 500px;
+    background-color: #ececec;
+}
+
+div#logo-container {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+div#logo-container img {
+    width: 64px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #ffffff;
+    margin: -8px -8px 0 -8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #333333;
+    /*background: url('/colors-back.png');
+    background-repeat: no-repeat;*/
+    font-weight: normal;
+}
+
+.section-headers {
+    margin: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: .5em;
+    color: darkred;
+}
+
+label {
+    display: inline-block;
+    text-align: right;
+    padding-right: 3%;
+}
+
+input {
+    display: inline-block;
+    padding: .5em;
+    border-radius: 0.2em;
+    border: 1px solid lightgrey;
+}
+
+
+div.input-container {
+    margin-top: .6em;
+    margin-bottom: .6em;
+    text-align: center;
+}
+
+#ticketQuantity {
+    font-size: 2em;
+    text-align: center;
+    padding-left: .7em;
+    width: 2em;
+}
+
+#generateButton {
+    padding: .5em;
+    font-size: 1.5em;
+}
+
+#generated-numbers-container {
+    text-align: center;
+}
+
+#generated-numbers-container ul {
+    padding: 0;
+}
+
+.powerball-number {
+    background-color: #cf0000 !important;
+    color: white !important;
+    border: 1px solid;
+    border-color: white !important;
+}
+
+#generated-numbers-container ul li {
+    display: inline-block;
+    text-align: center;
+    line-height: 2em;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2em;
+    width: 2em;
+    height: 2em;
+    padding: .5em;
+    margin: .5em;
+    font-size: 1.5em;
+    font-weight: bold;
+}

@@ -36,6 +36,7 @@ function populateScreen(listOfTickets) {
             + "</ul>"
         }
         $("#generated-numbers-container").html(listHtml);
+        $("#generated-numbers-container").show();
     }
 }
 

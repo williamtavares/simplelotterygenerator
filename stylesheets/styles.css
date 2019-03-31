@@ -1,6 +1,11 @@
 html {
     min-width: 500px;
-    background-color: #ececec;
+    background-color: #616161;
+    color: white;
+}
+
+body {
+    margin: 0;
 }
 
 div#logo-container {
@@ -48,25 +53,52 @@ input {
 
 
 div.input-container {
-    margin-top: .6em;
-    margin-bottom: .6em;
+    padding: 1em;
+    padding-top: 1.5em;
     text-align: center;
+    border: 1px solid #363636;
+    background-color: #4d4d4d;
+    box-shadow: 1px 1px 1px 1px #555555;
+    width: 82.5%;
+    height: 2em;
+    margin: 0 auto;
+    font-size: 1.5em;
+    margin-top: .5em;
+    margin-bottom: .5em;
 }
 
 #ticketQuantity {
-    font-size: 2em;
-    text-align: center;
-    padding-left: .7em;
+    font-size: 1em;
+    padding: .2em;
+    padding-right: 0em;
     width: 2em;
+    text-align: center;
 }
 
 #generateButton {
     padding: .5em;
-    font-size: 1.5em;
+    border-radius: .5em;
+    font-size: 1em;
+    background-color: #2a2a2a;
+    color: white;
+    border: 1px solid #171717;
+    margin-top: -.5em;
+}
+
+#generateButton:hover {
+    cursor: pointer;
 }
 
 #generated-numbers-container {
+    display: none;
     text-align: center;
+    text-align: center;
+    border: 1px solid #363636;
+    background-color: #4d4d4d;
+    box-shadow: 1px 1px 1px 1px #555555;
+    width: 89.5%;
+    margin: 0 auto;
+    margin-bottom: 1em;
 }
 
 #generated-numbers-container ul {
@@ -75,17 +107,21 @@ div.input-container {
 
 .powerball-number {
     background-color: #cf0000 !important;
+    background-image: linear-gradient(315deg, #a40000 0%, #c30000 74%) !important;
+    color: white !important;
     color: white !important;
     border: 1px solid;
-    border-color: white !important;
+    border-color: #c20000 !important;
 }
 
 #generated-numbers-container ul li {
     display: inline-block;
     text-align: center;
     line-height: 2em;
-    background-color: white;
-    border: 1px solid black;
+    background-color: #d9d9d9;
+    background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
+    border: 1px solid #bfbfbf;
+    color: black;
     border-radius: 2em;
     width: 2em;
     height: 2em;
